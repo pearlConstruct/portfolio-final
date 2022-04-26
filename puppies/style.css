@@ -1,0 +1,158 @@
+/* Font Styling */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+/* Body Stling*/
+body{
+  font-family: 'Comfortaa', sans-serif;
+  margin: 0;
+  margin-top: 10px;
+  background-color: whitesmoke;
+}
+
+/* Main */
+main{
+  max-width: 1200px;
+  margin: 10px auto;
+}
+
+blockquote{
+  margin: 50px;
+  font-weight: 300;
+}
+
+/* Header Styling */
+h1{
+	color:  black;
+  font-size: 3em;
+  font-weight: 300;
+  text-align: center;
+  margin: 30px;
+}
+
+h2{
+	color:  black;
+  font-weight: 700;
+}
+
+h3{
+  color:  black;
+  font-weight: 500;
+}
+
+/* Nav Styling */
+nav {
+  background-color: navy;
+  border-top: 1px solid orangered;
+  border-bottom: 1px solid orangered;
+  font-size: 120%;
+  font-weight: 400;
+}
+
+nav ul{
+  list-style-type: none;
+  text-align: center;
+  padding-top: 15px;
+}
+
+nav li{
+  display: inline;
+}
+
+nav a{
+  text-decoration: none;
+  padding-right: 10px;
+  color: white;
+}
+
+nav a:link{
+  color: white;
+}
+
+nav a:visited{
+  color: white;
+}
+
+nav a:hover{
+  color: orangered;
+  text-decoration: none;
+}
+
+nav a:active{
+  color: black;
+}
+
+/* Footer Styling */
+
+footer{
+  text-align: center;
+  color: whitesmoke;
+  background-color: navy;
+  border-top: 1px solid gray;
+  margin-top: 30px;
+  padding:  40px;
+}
+
+footer a:link{
+  color: whitesmoke;
+}
+
+/* Icon Styling */
+
+i.fa{
+  color: orangered;
+  font-size: 3em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Image Styling */
+
+img{
+  display:block;
+  margin:0 auto;
+}
+
+.col-sm-4 h3{
+    text-align:center;
+}
+
+.col-sm-4 img{
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.home-hero{
+  background-image: url(images/header.jpg);
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 10px 10px 10px 30px;
+  text-shadow: 2px 1px 0 whitesmoke;
+  margin-top: 40px;
+  border-radius: 5px;
+}
+
+/* CSS for Tablets */
+@media only screen and (max-width:  1024px){
+    h1{
+      color:  black;
+      font-size: 2em;
+  }
+
+}
+
+/* CSS for Smartphones */
+@media only screen and (max-width:  768px){
+    h1{
+      color:  black;
+      font-size: 1em;
+  }
+
+}
+
+
+
+
+
+

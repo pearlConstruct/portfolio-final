@@ -1,0 +1,173 @@
+/* Font Styling */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;700&display=swap');
+
+/* Body Styling*/
+body{
+  font-family: 'Josefin Sans', sans-serif;
+  color: cornsilk;
+  margin: 0;
+  background-color: black;
+}
+
+/* Main */
+main{
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+blockquote{
+  margin: 40px auto;
+  max-width: 1200px; 
+  margin-left: 100px;
+}
+
+col-sm-6{
+  text-align: left;
+}
+
+/* Header Styling */
+h1{
+	color:  cornsilk;
+  font-size: 5em;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 400;
+}
+
+h2{
+	color:  whitesmoke;
+}
+
+/* Nav Styling */
+nav {
+  background-color: cornsilk;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+  font-size: 120%;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+nav ul{
+  list-style-type: none;
+  text-align: center;
+  margin-top: 20px;
+}
+
+nav li{
+  display: inline;
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+nav a{
+  padding-right: 10px;
+  color: black;
+}
+
+nav a:link{
+  color: black;
+}
+
+nav a:visited{
+  color: black;
+}
+
+nav a:hover{
+  color: #000033;
+}
+
+nav a:active{
+  color: black;
+}
+
+/* Footer */
+footer{
+  text-align: center;
+  border-top: 1px solid gray;
+  padding:  40px;
+  color: black;
+  background-color: cornsilk;
+}
+
+footer a:link{
+  color: black;
+}
+
+footer a:visited{
+  color: black;
+}
+
+.footer-width{
+  padding: 40px 0 ;
+  color: black;
+  max-width:1000px;
+  margin:0 auto;
+}
+
+footer p{
+  text-align: left;
+}
+
+i.fa{
+  color: cornsilk;
+  font-size: 4em;
+  margin-top: 40px;
+  margin-left: 120px;
+}
+
+small{
+  margin-top: 100px;
+}
+
+/* Gallery Styles */
+.gallery .preview{
+    width:100%
+    height:auto;
+    margin-bottom: 30px;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+/* CSS for Tablets */
+@media only screen and (max-width:  1024px){
+    h1{
+      color:  whitesmoke;
+      font-size: 2em;
+  }
+
+}
+
+/* CSS for Smartphones */
+@media only screen and (max-width:  768px){
+    h1{
+      color:  whitesmoke;
+      font-size: 1em;
+  }
+
+    
+
+}
+
+
+
+
+
+
